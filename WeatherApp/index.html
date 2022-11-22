@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="meteo-container">
+            <div class="search-logo-search">
+                <input id="search-bar" class="search" placeholder="Search">
+                <button id="search-button" class="button-search"><img class="img-modify" src="search.jpg" alt=""></button>
+            </div>
+
+            <div class="temperature-country">
+                <p id="country-name" class="paragraph-country">Weather in Tokyo</p>
+                <p id="country-temperature" class="temperature">15°C</p>
+            </div>
+
+            <div class="icon-sky-paragraph">
+                <div class="center-element">
+                    <span id="img-temperature" class="icon"></span>
+                    <p id="country-clouds" class="small-text" style="display:inline-bloc;">Broken Clouds</p>
+                </div>
+                <p id="country-humidity" class="sky">Humidity : 66%</p>
+                <p id="country-wind" class="other">Wind : 3.6km/h</p>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
